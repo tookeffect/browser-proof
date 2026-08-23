@@ -1,0 +1,3 @@
+TookEffect Artifact Lineage controlled production proof — step B.
+
+This file is intentionally independent from step A so both pull requests can remain mergeable while sharing the same base.
