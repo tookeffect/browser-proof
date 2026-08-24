@@ -1,0 +1,4 @@
+TookEffect controlled external_context proof
+
+Purpose: demonstrate that non-sensitive integration references are bound into signed Evidence.
+No source code, credentials, customer data, or production configuration are included.
