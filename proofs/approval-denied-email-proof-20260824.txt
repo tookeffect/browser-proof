@@ -1,0 +1,3 @@
+Disposable fixture for TookEffect approval decision email testing.
+Purpose: verify that a DENIED approval notifies the configured Agent contact and does not execute or merge the pull request.
+Created: 2026-08-24
