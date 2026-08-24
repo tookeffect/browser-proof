@@ -1,0 +1,4 @@
+TookEffect × Oxagen context-to-outcome verification demo
+
+Purpose: a harmless, disposable GitHub pull request used only to demonstrate independent outcome verification after an agent receives governed context.
+No production code, credentials, customer data, or provider configuration are included.
