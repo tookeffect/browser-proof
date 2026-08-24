@@ -1,0 +1,4 @@
+TookEffect × Conexus controlled baseline proof
+Date: 2026-08-23
+Purpose: one disposable GitHub Verified Merge target for end-to-end receipt verification.
+No production code, credentials, or customer data are present in this repository.
