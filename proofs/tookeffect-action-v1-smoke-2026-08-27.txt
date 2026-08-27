@@ -1,0 +1,3 @@
+TookEffect Action v1 production consumer smoke.
+
+This is a disposable, non-production fixture intended to be merged only through tookeffect/tookeffect-action@v1 so the public Action can prove one real end-to-end Verified Merge before Marketplace publication.
