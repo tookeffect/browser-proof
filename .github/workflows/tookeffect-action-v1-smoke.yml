@@ -1,0 +1,33 @@
+name: TookEffect Action v1 Smoke
+
+on:
+  workflow_dispatch:
+    inputs:
+      pull_number:
+        description: "Disposable lab PR number intended to be merged through TookEffect Action v1"
+        required: true
+        type: number
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  verified-merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Execute and independently verify exact merge
+        id: tookeffect
+        uses: tookeffect/tookeffect-action@v1
+        with:
+          tookeffect-token: ${{ secrets.TOOKEFFECT_TOKEN }}
+          github-token: ${{ github.token }}
+          pull-number: ${{ inputs.pull_number }}
+          merge-method: squash
+          require-successful-checks: false
+          timeout-seconds: 90
+
+      - name: Show verified Effect ID
+        if: success()
+        run: echo "Verified Effect ${{ steps.tookeffect.outputs.effect-id }}"
