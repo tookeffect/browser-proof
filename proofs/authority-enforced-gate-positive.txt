@@ -1,0 +1,7 @@
+TookEffect ENFORCED_GATE laboratory proof — positive path
+
+Purpose: harmless merge target for the governed TookEffect path.
+Expected path: Agent -> TookEffect -> AuthorityLease -> CredentialBroker -> Managed Execution Boundary -> GitHub App -> merge.
+Expected proof: APPLIED + authoritative read-back + exact postcondition + Evidence + Signed Receipt.
+
+This file is laboratory-only and must not be used as a production claim by itself.
