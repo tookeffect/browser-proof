@@ -1,0 +1,4 @@
+TookEffect approval email notification proof
+Purpose: create a harmless PENDING approval request only.
+No production code, credentials, customer data, or provider mutation is included.
+Date: 2026-08-24
