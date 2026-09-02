@@ -1,0 +1,9 @@
+TookEffect disposable verification fixture for Ota / BobAI
+Date: 2026-09-02
+Purpose: controlled GitHub postcondition-verification pilot.
+Safety: laboratory-only; no production code, credentials, customer data, provider secrets, or Ota repositories.
+Expected test shape:
+1. Positive case: exact repository + PR + head SHA + base branch/base SHA are observed and bound to Evidence.
+2. Negative case: deliberately incorrect expected head SHA or base branch must fail closed and must never produce APPLIED.
+3. Pilot credential must not grant provider mutation authority.
+This pull request must not be merged as part of the observe-only pilot.
