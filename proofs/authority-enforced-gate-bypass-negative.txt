@@ -1,0 +1,7 @@
+TookEffect ENFORCED_GATE laboratory proof — negative bypass path
+
+Purpose: harmless merge target reserved for a deliberate out-of-band bypass attempt after the GitHub ruleset is active.
+Expected result: the equivalent merge attempted outside TookEffect is denied by GitHub.
+
+A successful bypass means ENFORCED_GATE is NOT proven and the posture must remain MEDIATED_BUT_BYPASS_POSSIBLE.
+This file is laboratory-only and must not be used as a production claim by itself.
