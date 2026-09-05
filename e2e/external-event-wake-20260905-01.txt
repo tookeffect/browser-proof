@@ -1,0 +1,4 @@
+TookEffect external-effect event wake E2E fixture.
+
+Lab-only disposable marker.
+Expected flow: declare external intent -> merge this PR outside TookEffect -> authenticated GitHub event wakes verification -> authoritative read-back -> Evidence + Receipt.
